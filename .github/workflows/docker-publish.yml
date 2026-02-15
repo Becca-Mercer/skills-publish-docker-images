@@ -30,4 +30,4 @@ jobs:
           platforms: linux/amd64,linux/arm64
           tags: |
             ghcr.io/becca-mercer/skills-publish-docker-images/stackoverflown:main
-            ghrc.io/becca-mercer/skills-publish-docker-images/stackoverflown:${{ github.sha }}
+            ghcr.io/becca-mercer/skills-publish-docker-images/stackoverflown:${{ github.sha }}
